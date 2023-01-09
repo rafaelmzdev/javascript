@@ -4,6 +4,6 @@ num.sort()
 
 
 
-for (let i = 0; i <= num.length; i++){
-    console.log(num[i])
+for (let i = 0; i < num.length; i++){
+    console.log(`A posição ${i} tem o número ${num[i]}`)
 }
